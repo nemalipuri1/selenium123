@@ -15,7 +15,9 @@ public class AdvanceEvents {
 	WebElement ele = a.findElement(By.xpath("//button[text()='Automation Tools']"));
 	Actions act = new Actions(a);
 	Actions series = act.contextClick();
+	
 	series.perform();
+	
 	act.moveToElement(ele).perform();	
 	//act.contextClick(ele);
 
